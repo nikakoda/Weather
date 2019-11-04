@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841A045123702785000BB210 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A045023702785000BB210 /* CurrentWeather.swift */; };
+		841A0453237028D3000BB210 /* WeatherIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A0452237028D3000BB210 /* WeatherIconManager.swift */; };
 		848270F7235C42A1007118EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848270F6235C42A1007118EA /* AppDelegate.swift */; };
 		848270F9235C42A1007118EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848270F8235C42A1007118EA /* SceneDelegate.swift */; };
 		848270FB235C42A1007118EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848270FA235C42A1007118EA /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		841A045023702785000BB210 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		841A0452237028D3000BB210 /* WeatherIconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherIconManager.swift; sourceTree = "<group>"; };
 		848270F3235C42A1007118EA /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848270F6235C42A1007118EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848270F8235C42A1007118EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				848270F6235C42A1007118EA /* AppDelegate.swift */,
 				848270F8235C42A1007118EA /* SceneDelegate.swift */,
 				848270FA235C42A1007118EA /* ViewController.swift */,
+				841A045023702785000BB210 /* CurrentWeather.swift */,
+				841A0452237028D3000BB210 /* WeatherIconManager.swift */,
 				848270FC235C42A1007118EA /* Main.storyboard */,
 				848270FF235C42A2007118EA /* Assets.xcassets */,
 				84827101235C42A2007118EA /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				848270FB235C42A1007118EA /* ViewController.swift in Sources */,
 				848270F7235C42A1007118EA /* AppDelegate.swift in Sources */,
+				841A0453237028D3000BB210 /* WeatherIconManager.swift in Sources */,
+				841A045123702785000BB210 /* CurrentWeather.swift in Sources */,
 				848270F9235C42A1007118EA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.Weather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.Weather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
